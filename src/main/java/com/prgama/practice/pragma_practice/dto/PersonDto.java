@@ -1,4 +1,10 @@
 package com.prgama.practice.pragma_practice.dto;
 
-public class PersonDto {
-}
+import java.util.UUID;
+
+public record PersonDto(
+        UUID uuid,
+        String name,
+        String document,
+        String email
+){}
