@@ -6,8 +6,8 @@ spring:
   datasource:
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://${POSTGRES_HOST:localhost}:5432/${POSTGRES_DB:pragma_practice}
-    username: postgres
-    password: admin_pc
+    username: ${POSTGRES_USERNAME:postgres}
+    password: ${POSTGRES_PASSWORD:admin_pc}
     hikari:
       maximum-pool-size: 10
       minimum-idle: 1

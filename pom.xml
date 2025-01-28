@@ -93,6 +93,7 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>pragma_practice</finalName>
 	</build>
 
 </project>
